@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+div {
+    margin-bottom: 10px;
+
+}
+
+a {
+    text-decoration: none;
+    font-size: 30px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 5px;
+
+}
+a:nth-child(1){
+    border-left: none;
+    border-right: 1px solid;
+    border-color: black;
+
+}
+a:nth-child(3){
+    border-right: none;
+    border-color: black;
+}
+
+a:nth-child(2){
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-color: black;
+}
+
+div:nth-child(2){
+    
+
+    
+}
+div a{
+    border-bottom: 1px solid;
+}
+
+
+body{
+    margin-left: 30px;
+    margin-top: 20px;
+}

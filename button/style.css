@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+div {
+    text-align: center;
+    padding-top: 100px;
+    
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+
+    
+}
+button{
+    background-color: #3486c0;
+    font-size: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    box-shadow:0 4px 1px #3ea2e8; 
+}
+button:hover{
+    background-color: #3ea2e8;
+    box-shadow: none;
+    
+}
